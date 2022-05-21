@@ -24,29 +24,19 @@ To implement Erosion and Dilation using Python and OpenCV.
  
 ## Program:
 
-``` Python
-# Import the necessary packages
+``` 
+Developer Name : NITHISHWAR S
+Register number : 212221230071
 
-
-
-# Create the Text using cv2.putText
-
-
-
-# Create the structuring element
-
-
-
-# Erode the image
-
-
-
-
-# Dilate the image
-
-
-
-
+import numpy as np
+import cv2
+img1 = np.zeros((100,400),dtype = 'uint8')
+font = cv2.FONT_HERSHEY_SIMPLEX
+cv2.putText(img1,'NITHISHWAR',(5,70),font,2,(255),5,cv2.LINE_AA)
+new_image='img1'
+cv2.imshow(new_image,img1)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 ```
 ## Output:
